@@ -13,3 +13,6 @@ This allows your machine to use the MAC address of a target router, giving other
 - Here's a catch :
     - The target machine has its own firewalls and security protocols.
     - Hence, it will refresh the details of devices within a time period. 
+    - In order to beat this refresh system, there is a while loop in place to constantly send packets.
+- If we execute the program without ipv4 forwarding, this acts as a DoS (Denial of Service) attack.
+- This is caused by the fact that the target machine will not be able to access the Internet

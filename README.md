@@ -1,3 +1,6 @@
+# Disclaimer
+Please do not attempt this on any network/machine. Please make sure that you have permission before performing this ARP-spoofing. Acceptable networks to try on is your own home network. This is for Educational Purposes. 
+
 # ARP-Spoofer
 This allows your machine to use the MAC address of a target router, giving other computers connected to the network an impression that your machine is the router. This allows communication to flow from your targets computer to your computer.
 

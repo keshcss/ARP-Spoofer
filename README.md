@@ -9,7 +9,7 @@ Libraries used : scapy
 ## How It Works
 - Enter your target's IP address
 - Enter your target router's IP address
-    - In the event you have problems recieving target's IP address, stay tuned for my IP Ping Verify Program! 
+    - In the event you have problems recieving target's IP address, you can run the [IP Ping Verifier Programe](https://github.com/keshcss/IP-Ping-Verify) to retrive target IP and mac address via "arp -a" after running the program.
 - This will follow on to get the MAC/Physical address of the router by identifying the "dst" & "pdst" elements of the ARP
 - Now we have the MAC address of the router!
 - The next step is to spoof your machine to have the same MAC address as the router
